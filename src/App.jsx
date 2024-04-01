@@ -52,33 +52,81 @@ function App() {
 
         <section className='commands'>
           <h1>
-            What about the commands? What's the power of Friday?
+            What about the commands?<br></br>What's the <span>power of Friday</span>?
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quaerat earum laboriosam culpa saepe vero delectus consectetur officiis dolore blanditiis?
           </p>
-              <ul className="ultimate-command">
-                <li>
-                  <h2>$Helpe</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dicta nam quibusdam, consectetur fugit veritatis!</p>
-                </li>
-                <li>
-                  <h2>$share</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsa ab aspernatur sed nostrum reprehenderit!</p>
-                </li>
-                <li>
-                  <h2>$ping</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi quia, ducimus dolorum atque dolores!
-                  </p>
-                </li>
-                <li>
-                  <h2>$joke</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sapiente neque distinctio hic. Doloremque, rem?</p>
-                </li>
-              </ul>
+          <ul className="ultimate-command">
+            <li>
+              <h2>$Helpe</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dicta nam quibusdam, consectetur fugit veritatis!</p>
+            </li>
+            <li>
+              <h2>$share</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsa ab aspernatur sed nostrum reprehenderit!</p>
+            </li>
+            <li>
+              <h2>$ping</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi quia, ducimus dolorum atque dolores!
+              </p>
+            </li>
+            <li>
+              <h2>$joke</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sapiente neque distinctio hic. Doloremque, rem?</p>
+            </li>
+          </ul>
         </section>
+
+        <section className='Add-friday'>
+
+          <h2>Prepare to find a <span>new world</span>,<br></br>with new features.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquid. Laudantium id consequatur ipsam, quod inventore similique assumenda perferendis? Fugiat dolore doloribus pariatur magni dicta distinctio sunt atque ipsa architecto.</p>
+
+          <form action="GET">
+            <input type="text" placeholder='How can we address you?' />
+
+            <ul>
+              <input type="email" placeholder='Isert your best e-mail' />
+              <input type="tel" placeholder='(15) XXXX-XXXX' />
+            </ul>
+            <button type='submit'>Add Now!</button>
+          </form>
+        </section>
+        
+        <section>
+          <footer>
+            <h1>Friday Discord Bot</h1>
+            <div className="ultimates">
+              <ul>
+                <h2>Social</h2>
+                <p>Intagram</p>
+                <p>Facebook</p>
+                <p>Github</p>
+                <p>Discord</p>
+              </ul>
+              <ul>
+                <h2>More content</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, deserunt.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate animi totam architecto?</p>
+              </ul>
+              <ul>
+                <h2>Plolitics </h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </ul>
+            </div>
+            <p>Friday Discord Bot - Made by Felipe Liandro - Copyright 2024</p>
+          </footer>
+        </section>
+
       </main>
+
+
     </div>
   );
 }

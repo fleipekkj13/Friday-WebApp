@@ -81,7 +81,7 @@ span{
 
 }
 .ultimate-section-main a{
-  background-color: var(--pale);
+  background-color: var(--pistache);
   padding: 5px 20px 5px 20px;
 
   font-weight: bolder;
@@ -129,7 +129,7 @@ span{
 }
 
 .content ul li{
-  background-color: #97DFFC;
+  background-color: #5dee59;
   color: #051014;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
@@ -188,4 +188,150 @@ span{
 
 .friday-card:hover{
   scale: 1.02;
+}
+
+
+.ultimate-command{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2em;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+  margin: 0 auto;
+
+  margin-top: 5em;
+
+}
+.ultimate-command li{
+  list-style: none;
+  text-align: left;
+
+  width: 450px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #8acb88;
+
+}
+.ultimate-command hr{
+  border-radius: 100%;
+  width: 100%;
+  border: 1px solid #8acb88;
+}
+.ultimate-command h2{
+  background-color: #5dee59;
+  color: #051014;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  width: 30%;
+  box-shadow: 0 0 100px rgba(78, 211, 73, 0.2);
+ 
+}
+.ultimate-command li p{
+  width: 100%;
+  font-size: 15px;
+}
+
+.commands h1{
+  font-size: 50px;
+  color: white;
+}
+.commands p{
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Add-friday{
+  margin-top: 20em;
+}
+.Add-friday h2{
+  font-size: 50px;
+  color: white;
+}
+
+.Add-friday p{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+form{
+  margin: 0 auto;
+  padding-block: 5em;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+form ul{
+  padding: 0;
+  width: 100%;
+  display: flex;
+  gap: 2em;
+}
+
+form ul input{
+  width: 100%;
+}
+
+.Add-friday input{
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.Add-friday input:focus{
+  outline: 2px solid #5dee59;
+}
+.Add-friday button{
+  font-size: 25px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  background-color: #5dee59;
+  color: #051014;
+  padding: 5px;
+
+  transition: 250ms ease-in-out;
+
+}
+.Add-friday button:hover{
+  scale: 1.05;
+}
+
+footer{
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin-top: 20em;
+  text-align: center;
+  color: #051014;
+
+  box-shadow: 0 0 50px #5dee59;
+  width: 100%;
+  background-color: #5dee59;
+}
+
+footer h1{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.ultimates{
+  padding: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.ultimates ul{
+  padding: 0;
+}
+
+.ultimates h2{
+  text-align: center;
 }
